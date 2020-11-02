@@ -24,25 +24,29 @@ li{
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
+    margin-right: 10px;
 }
 li a{
     text-decoration: none;
     color: #6b7280;
-    font-weight: 700;
+    font-weight: 800;
 }
 li a:hover{
     color:#5A67D8;
 }
 .overview-hero{
     background-color: #E2E8F0;
-    padding: 35px 0 35px 0;
+    padding: 40px 0 40px 0;
 }
 .overview-hero .container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-img{
+.overview-hero-image{
+    margin-right: 65px;
+}
+.overview-hero-image img{
     width: 200px;
 }
 .learn-about h2{
@@ -55,18 +59,22 @@ img{
 }
 .card{
     border: 1px solid #efe8f0;
+    margin: 0 23px 0 0;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 2px 4px 4px rgb(180, 176, 176);
 }
-
+.card img{
+    width: 100%;
+    height: 200px;
+}
 .card h3{
     color:#48BB78;
     font-size: 21px;
 }
 .testing{
     background-color: #4A5568;
-    margin: 30px 0;
+    margin: 32px 0;
     padding: 52px 0 72px 0;;
 }
 .testing .container{
@@ -84,7 +92,11 @@ img{
 .stories a{
     color:#5A67D8;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 800;
+}
+.article-body h3{
+    font-size:18px;
+    margin-right: 175px;
 }
 article{
     display: flex;
@@ -93,9 +105,9 @@ article{
 }
 article img{
     border-radius: 50%;
-}
-.article-body h3{
-    font-size:18px;
+    height: 200px;
+    width:auto;
+    margin-right: 26px;
 }
 .cta{
     justify-self: center;
@@ -112,7 +124,7 @@ article img{
 .newsletter{
     background-color: #48BB78;
     color: white;
-    padding: 30px 0 30px 0;
+    padding: 45px 0 45px 0;
 }
 
 .newsletter h3{
@@ -120,7 +132,7 @@ article img{
 }
 
 .newsletter .container{
-    max-width: 500px;
+    width: 500px;
 }
 form{
     display: grid;
@@ -129,8 +141,8 @@ form{
 }
 
 input{
-    width: calc(100% - 20px);
-    height: 37px;
+    width: 94%;
+    height: 38px;
     border-radius: 5px;
     border: 1px solid #efe8f0;
     padding-left: 10px;
@@ -149,7 +161,7 @@ input{
     margin-top: 10px;
 }
 footer{
-    padding: 10px 0 10px 0;
+    padding: 12px 0 12px 0;
     background-color: #4A5568;
     color: white;
 }
