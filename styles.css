@@ -23,6 +23,7 @@ h1{
 li{
     display: inline-block;
     text-decoration: none;
+    font-size: 18px;
 }
 li a{
     text-decoration: none;
@@ -58,6 +59,7 @@ img{
     padding: 10px;
     box-shadow: 2px 4px 4px rgb(180, 176, 176);
 }
+
 .card h3{
     color:#48BB78;
     font-size: 21px;
@@ -73,7 +75,7 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-.testing-description{
+.testing-desciption{
     color:white;
 }
 .stories h2{
@@ -104,6 +106,9 @@ article img{
     color: white;
     padding: 15px 40px;
 }
+.cta .btn{
+    border-radius: 5px;
+}
 .newsletter{
     background-color: #48BB78;
     color: white;
@@ -125,7 +130,7 @@ form{
 
 input{
     width: calc(100% - 20px);
-    height: 36px;
+    height: 37px;
     border-radius: 5px;
     border: 1px solid #efe8f0;
     padding-left: 10px;
@@ -134,7 +139,7 @@ input{
 
 .btn{
     background-color: #5A67D8;
-    height: 40px;
+    height: 41px;
     border: none;
     color: white;
     border-radius: 5px;
